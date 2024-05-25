@@ -1,0 +1,11 @@
+export function twoFer(name) {
+    if (name) {
+        return `One for ${name}, one for me.`;
+    } else {
+        return 'One for you, one for me.';
+    }
+}
+console.log(twoFer('Alice')); 
+console.log(twoFer('Bohdan')); 
+console.log(twoFer(''));         
+console.log(twoFer('Zaphod'));
